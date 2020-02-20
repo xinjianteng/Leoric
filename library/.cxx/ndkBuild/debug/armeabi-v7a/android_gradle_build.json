@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "F:\\AndroidModel\\Leoric-master\\library\\jni\\Android.mk",
+    "F:\\AndroidModel\\Leoric-master\\library\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "F:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\AndroidModel\\Leoric-master\\library\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\AndroidModel\\Leoric-master\\library\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dF:/AndroidModel/Leoric-master/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\AndroidModel\\Leoric-master\\library\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "F:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\AndroidModel\\Leoric-master\\library\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\AndroidModel\\Leoric-master\\library\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dF:/AndroidModel/Leoric-master/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\AndroidModel\\Leoric-master\\library\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "leoric-debug-armeabi-v7a": {
+      "buildCommand": "F:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\AndroidModel\\Leoric-master\\library\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\AndroidModel\\Leoric-master\\library\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dF:/AndroidModel/Leoric-master/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\AndroidModel\\Leoric-master\\library\\build\\intermediates\\ndkBuild\\debug\\lib F:/AndroidModel/Leoric-master/library/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libleoric.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "leoric",
+      "files": [
+        {
+          "src": "F:\\AndroidModel\\Leoric-master\\library\\jni\\leoric.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot F:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IF:/AndroidModel/Leoric-master/library/jni/include -IF:/AndroidModel/Leoric-master/library/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "F:\\AndroidModel\\Leoric-master\\library\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libleoric.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "F:\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

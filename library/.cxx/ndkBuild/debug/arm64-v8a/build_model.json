@@ -1,0 +1,59 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "F:\\AndroidModel\\Leoric-master",
+      "sdkFolder": "F:\\sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "F:\\AndroidModel\\Leoric-master\\library\\build\\intermediates",
+      "gradleModulePathName": ":library",
+      "moduleRootFolder": "F:\\AndroidModel\\Leoric-master\\library",
+      "makeFile": "F:\\AndroidModel\\Leoric-master\\library\\jni\\Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "F:\\AndroidModel\\Leoric-master\\.cxx",
+      "cxxFolder": "F:\\AndroidModel\\Leoric-master\\library\\.cxx",
+      "ndkFolder": "F:\\sdk\\ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "F:\\AndroidModel\\Leoric-master\\library\\build\\intermediates\\ndkBuild\\debug\\lib",
+    "objFolder": "F:\\AndroidModel\\Leoric-master\\library\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "jsonFolder": "F:\\AndroidModel\\Leoric-master\\library\\.cxx\\ndkBuild\\debug",
+    "gradleBuildOutputFolder": "F:\\AndroidModel\\Leoric-master\\library\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARM64_V8A",
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "F:\\AndroidModel\\Leoric-master\\library\\.cxx\\ndkBuild\\debug\\arm64-v8a",
+  "jsonFile": "F:\\AndroidModel\\Leoric-master\\library\\.cxx\\ndkBuild\\debug\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "F:\\AndroidModel\\Leoric-master\\library\\.cxx\\cxx\\debug\\arm64-v8a",
+  "objFolder": "F:\\AndroidModel\\Leoric-master\\library\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a",
+  "buildCommandFile": "F:\\AndroidModel\\Leoric-master\\library\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "F:\\AndroidModel\\Leoric-master\\library\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "F:\\AndroidModel\\Leoric-master\\library\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_model.json",
+  "jsonGenerationLoggingRecordFile": "F:\\AndroidModel\\Leoric-master\\library\\.cxx\\ndkBuild\\debug\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "F:\\AndroidModel\\Leoric-master\\library\\.cxx\\ndkBuild\\debug\\arm64-v8a\\compile_commands.json"
+}
