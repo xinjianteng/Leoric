@@ -170,7 +170,7 @@ void set_process_name(JNIEnv *env) {
 }
 
 JNIEXPORT void JNICALL
-Java_me_weishu_leoric_NativeLeoric_doDaemon(JNIEnv *env, jobject jobj,
+Java_com_tin_leoric_NativeLeoric_doDaemon(JNIEnv *env, jobject jobj,
                                                                jstring indicatorSelfPath,
                                                                jstring indicatorDaemonPath,
                                                                jstring observerSelfPath,
