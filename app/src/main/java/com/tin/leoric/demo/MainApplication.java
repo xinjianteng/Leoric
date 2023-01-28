@@ -20,8 +20,8 @@ package com.tin.leoric.demo;
 import android.app.Application;
 import android.content.Context;
 
-import me.weishu.leoric.Leoric;
-import me.weishu.leoric.LeoricConfigs;
+import com.tin.leoric.Leoric;
+import com.tin.leoric.LeoricConfigs;
 
 public class MainApplication extends Application {
 
